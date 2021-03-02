@@ -1,5 +1,6 @@
 Hello. 
-My name is Rob.
-I like biscuits.
-I don't like fried fish.
+My name is Yuefeng Wu.
+You can call me Flavius.
+I love bioinformatics!
+Thank you!
 

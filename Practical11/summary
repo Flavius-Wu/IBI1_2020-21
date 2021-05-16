@@ -1,0 +1,28 @@
+SOD2_human(NP_000627.2) and SOD2_mouse(NP_038699.2)
+Edit_distance is :  23
+Alignment seq is :  MLRACTRLPVGSRKHSLPDLPYDYGALEPHINAQIMQLHHSKHHAAYVNNLNTEEKYEALAKGDVTQALQPALKFNGGGHINHIFWTNLSPGGGEPKGELLEAIKRDFGSFKFKEKLTASVGVQGSGWGWLGFNKEGLQIAACNQDPLQGTTGLIPLLGIDVWEHAYYLQYKNVRPDYLKAIWNVINWENVTERYACKK
+Alignment_number is :  199
+Percentage of identical amino acids is : 0.8963963963963963
+Blosum score is :  1110
+
+SOD2_human	(NP_000627.2) and RandomSeq
+Edit_distance is :  210
+Alignment seq is :  TQPNEILFNPFI
+Alignment_number is :  12
+Percentage of identical amino acids is : 0.05405405405405406
+Blosum score is :  -444
+
+SOD2_mouse	(NP_038699.2) and RandomSeq
+Edit_distance is :  209
+Alignment seq is :  TPNELFNPKFEVI
+Alignment_number is :  13
+Percentage of identical amino acids is : 0.05855855855855856
+Blosum score is :  -444
+
+Interpretation:
+The more identical the two sequences are the greater the blosum number, "Percentage of identical amino acids' and "Alignment_number" will be.
+The biological funntion for SOD2_human(NP_000627.2) and SOD2_mouse(NP_038699.2) are largely similar.
+It shows that there is an evolutionary relationship between human and mouse.
+However, the biological funntion for SOD2_human	(NP_000627.2) and RandomSeq, SOD2_mouse	(NP_038699.2) and RandomSeq are different.
+but the instrution did not say whether the random seq. is SOD2 or not
+so, it is hard to make judgement on evolutionary relationship between human mouse and random.

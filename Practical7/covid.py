@@ -49,7 +49,7 @@ t = list(range(1,92+1))   #read the whole list
 t = np.array(t)          #list date
 P = np.array(total)       #list number
 
-popt, pocv = curve_fit(logistic_increase_function, t, P)
+popt, pocv = curve_fit(logistic_increase_function, t, P,bounds=(0, 820000))
 #fit the dots by a curve
 P_predict=logistic_increase_function(t,popt[0],popt[1],popt[2])
 future=[93,95,97,100,107,113,115,125] #define future days

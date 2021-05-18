@@ -7,10 +7,10 @@ from scipy.optimize import curve_fit
 import math
 
 covid_data = pd.read_csv("full_data.csv")  # The code for importing the .csv file works
-print(covid_data.head(5))
-print(covid_data.info())
+#print(covid_data.head(5))
+#print(covid_data.info())
 print(covid_data.iloc[0:12:2, 0:5])  # showing all columns, and every second row between (and including) 0 and 10
-print(covid_data.describe())
+#print(covid_data.describe())
 my_columns = [False, False, False, False, False, True]  # used a Boolean
 print(covid_data.loc[(covid_data[
                           'location'] == 'Afghanistan'), my_columns])  # to show \total cases" for all rows corresponding to Afghanistan
@@ -27,11 +27,12 @@ plt.xlabel("Worldwide")
 plt.title("a boxplot of new cases worldwide")
 plt.show()  # created a boxplot of new cases worldwide.
 world_dates = (covid_data.loc[(covid_data['location'] == 'World'), "date"])
-plt.plot(world_dates, new_case, 'o-', color="blue")
-plt.plot(world_dates, new_death, 'o-', color="red")
+plt.plot(world_dates, new_case, 'o-', color="blue",label="new_case")
+plt.plot(world_dates, new_death, 'o-', color="red",label="new_death")
 plt.ylabel("infected_number")
 plt.xlabel("Date")
 plt.title("a plot of new case&death worldwide")
+plt.legend(loc=0)
 plt.xticks(range(0, 92, 7))
 plt.xticks(rotation=40)
 plt.show()  # plot both new cases and new deaths worldwide

@@ -1,4 +1,4 @@
 Is the increase of covid-19 confirmation consistent with logistic increase?
-Line 40-51
+Line 40-64
 From the figure we plotted, basically confirm with logistic increase, at the beginning, it perform more like J increase. And future increase will gradually slow done. 
 ##

@@ -7,6 +7,7 @@ def rev_seq_cal(seq):
     rev_seq = []
     for i in list_seq:
         #    print(i) for test use only
+        #make exchange between A and T, G and C.
         if i == 'A':
             i = 'T'
             new_seq.append(i)

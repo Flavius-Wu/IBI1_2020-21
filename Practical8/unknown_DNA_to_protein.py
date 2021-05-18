@@ -55,7 +55,7 @@ for key in dic.keys():
                 codon = seq[:i]
                 codon = codon[-3:]
                 if codon in codon_table:
-                    prot = prot + codon_table[codon] + ' '
+                    prot = prot + codon_table[codon]
             length = str(len(prot))
             file.write(length)
             file.write('\n')

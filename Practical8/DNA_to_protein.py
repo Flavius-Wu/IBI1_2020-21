@@ -30,7 +30,7 @@ for i in range(0,len(seq)+3,3):
     codon = codon[-3:]
     #print(codon)no use in the program for test use only
     if codon in codon_table:
-        prot = prot + codon_table[codon] +' '
+        prot = prot + codon_table[codon]
 print(prot)
 
 
